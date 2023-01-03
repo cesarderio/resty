@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# RESTy
 
 ![UML](./assets/UML.png)
 
