@@ -1,23 +1,25 @@
 import React from 'react';
 
-// const Results = () => {
-//   return(
-//     <>
-//     <section>
-//     <pre>{this.props.data ? JSON.stringify(this.props.data, undefined, 2) : null}</pre>
-//   </section>
-//   </>
-//   )
-// }
+import './styles.scss';
 
-class Results extends React.Component {
-  render() {
-    return (
-      <section>
-        <pre>{this.props.data ? JSON.stringify(this.props.data, undefined, 2) : null}</pre>
-      </section>
-    );
-  }
+const Results = (props) => {
+  return(
+    <>
+    <section>
+    <pre>{props.data ? JSON.stringify(props.data, undefined, 2) : null}</pre>
+  </section>
+  </>
+  )
 }
+
+// class Results extends React.Component {
+//   render() {
+//     return (
+//       <section>
+//         <pre>{this.props.data ? JSON.stringify(this.props.data, undefined, 2) : null}</pre>
+//       </section>
+//     );
+//   }
+// }
 
 export default Results;
