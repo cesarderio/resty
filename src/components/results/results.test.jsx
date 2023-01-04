@@ -2,7 +2,7 @@
 import '@testing-library/jest-dom';
 
 import { render, screen } from '@testing-library/react';
-import Header from './index';
+import Results from './index';
 
 describe('Results Component', () => {
   test('renders ?? as expected', () => {
